@@ -32,8 +32,15 @@ h3 {
 p {
     font-size: 1.2rem;
 }
+button {
+    cursor: pointer;
+}
 
-
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
 /* ===================== Header and navigation ===================== */
 header {
     background-color: white;
@@ -49,7 +56,8 @@ nav ul {
 }
 nav ul li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
     color: var(--main-color);
 }
 nav ul li a {
@@ -62,11 +70,13 @@ nav ul li a {
 /* ===================== Hero and call to action ===================== */
 #hero {
     background-color: var(--background-gray);
+    
+}
+.hero_container {
     display: flex;
     flex-direction: column;
     gap: 150px;
 }
-
 .hero_call_to_action {
     display: flex;
     flex-direction: column;
@@ -105,7 +115,8 @@ nav ul li a {
 /* ===================== Services ===================== */
 
 #services {
-    padding: 20px;
+
+    margin: 200px auto;
 }
 
 .services_text p {
@@ -130,7 +141,7 @@ nav ul li a {
 }
 
 .services_card h3 {
-    color: var(--secondary-color);
+    color: var(--main-color);
     font-size: 2rem;
     margin-top: 30px;
 }
@@ -143,7 +154,11 @@ nav ul li a {
 /* ===================== Values ===================== */
 #values {
     background-color: var(--background-gray);
-    padding: 40px;
+    
+}
+.values_container {
+    padding: 50px 20px;
+    align-items: center;
 }
 .values_text p {
     color: var(--secondary-color);
@@ -183,12 +198,16 @@ nav ul li a {
 }
 .values_image {
     width: 100%;
-    margin-top: 100px;
+    display: block;
+    margin: 100px auto;
+
+    
 }
 
 /* ===================== Team ===================== */
 #team {
-    padding: 40px;
+
+    margin: 150px auto;
 }
 .team_text p {
     color: var(--secondary-color);
@@ -223,7 +242,9 @@ nav ul li a {
 /* ===================== Skills ===================== */
 #technologies {
     background-color: var(--background-gray);
-    padding: 20px;
+}
+.technologies_container {
+    padding: 100px 20px;
 }
 .technologies_text p {
     color: var(--secondary-color);
@@ -252,4 +273,7 @@ nav ul li a {
 .technologies_logo img {
 
     object-fit: contain;
+}
+.technologies_logo_container {
+    margin-top: 50px;
 }

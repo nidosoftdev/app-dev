@@ -1,0 +1,79 @@
+@media screen and (min-width:1000px) {
+    /* ===================== Header and navigation ===================== */
+    nav {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+
+    /* ===================== Hero and call to action ===================== */
+
+    .hero_container {
+        max-width: 1600px;
+        flex-direction: row;
+        margin: 0 auto;
+
+    }
+    .hero_call_to_action {
+        max-width: 600px;
+        justify-content: center;
+    }
+
+    /* ===================== Services ===================== */
+    #services {
+       
+       
+    }
+    .services_cards_container {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .services_card {
+        width: 500px;
+    }
+    /* ===================== values ===================== */
+    #values {
+      
+    }
+    .values_text {
+        max-width: 700px;
+    }
+    .values_container {
+        display: flex;
+        justify-content: start;
+        gap: 60px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .values_image {
+        width: 500px;
+    }
+    
+    /* ===================== Team ===================== */
+    #team {
+    
+        max-width: 1600px;
+      
+    }
+    .team_card_container {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .team_card {
+        width: 400px;
+        
+    }
+    /* ===================== Skills ===================== */
+    #technologies {
+        
+        
+    }
+    .technologies_container {
+        
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    
+}
