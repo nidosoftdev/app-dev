@@ -1,7 +1,7 @@
 @media screen and (min-width:1000px) {
     /* ===================== Header and navigation ===================== */
     nav {
-        max-width: 1600px;
+        max-width: 1100px;
         margin: 0 auto;
     }
     nav ul {
@@ -11,13 +11,13 @@
     /* ===================== Hero and call to action ===================== */
 
     .hero_container {
-        max-width: 1600px;
+       
         flex-direction: row;
         margin: 0 auto;
 
     }
     .hero_call_to_action {
-        max-width: 600px;
+        max-width: 500px;
         justify-content: center;
     }
 
@@ -44,7 +44,7 @@
         display: flex;
         justify-content: start;
         gap: 60px;
-        max-width: 1600px;
+     
         margin: 0 auto;
     }
     .values_image {
@@ -54,7 +54,7 @@
     /* ===================== Team ===================== */
     #team {
     
-        max-width: 1600px;
+        
       
     }
     .team_card_container {
@@ -72,7 +72,7 @@
     }
     .technologies_container {
         
-        max-width: 1600px;
+    
         margin: 0 auto;
     }
     
